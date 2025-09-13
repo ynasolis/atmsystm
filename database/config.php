@@ -4,7 +4,7 @@
         private $HostName = "localhost";
         private $UserName = "root"; 
         private $Password = ""; 
-        private $DatbaseName = "attendance-system-db";  
+        private $DatabaseName = "attendance-system-db";  
 
         protected $conn; 
 
@@ -14,7 +14,7 @@
                             $this->HostName,    
                             $this->UserName,    
                             $this->Password,
-                            $this->DatabaseName 
+                            $this->DatabaseName
             ); 
             
             if($this->conn->connect_errno)
